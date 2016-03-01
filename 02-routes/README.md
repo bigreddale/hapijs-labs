@@ -36,7 +36,7 @@ The directory `02-routes` contains a skeleton server with a route defined.
     - What paths could match this? Try appending further segments to the browser path,
       for example `http://localhost:8084/objects/463/7/22/1`.
     - You can restrict the depth of the path by adding a number (greater than 1)
-      after the '*', for example `/objects/{objectId*3}'`.
+      after the '\*', for example `/objects/{objectId`*`3}'`.
       Is this an _exactly_ match or an _at most_ match?
 
 1. __Path matching order__
