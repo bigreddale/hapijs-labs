@@ -31,7 +31,7 @@ The directory `02-routes` contains a skeleton server with a route defined.
 
 1. __Wildcard Parameters__ Hapi also supports wildcard parameters in the last segment.
    For example, the route '/products/{productId?}' matches '/products/' with the
-   value of `request.params.productId` set to an empty string `''`.
+   value of `request.params.productId` set to `undefined`.
     - Change the route path to `'/objects/{objectId*}'`.
     - What paths could match this? Try appending further segments to the browser path,
       for example `http://localhost:8084/objects/463/7/22/1`.
